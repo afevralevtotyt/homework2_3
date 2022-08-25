@@ -109,5 +109,6 @@ public class Main {
                 (newDenisIncome*12-denisIncome*12)+" рублей");
         System.out.println("Кристина теперь получает " +newchristinasIncome + " рублей, годовой доход вырос на " +
                 (newchristinasIncome*12-christinasIncome*12)+" рублей");
+
     }
 }
