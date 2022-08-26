@@ -8,6 +8,9 @@ public class Main {
         task6();
         task7();
         task8();
+        taskHard6();
+        taskHard7();
+        taskHard8();
 
     }
 
@@ -110,5 +113,27 @@ public class Main {
         System.out.println("Кристина теперь получает " +newchristinasIncome + " рублей, годовой доход вырос на " +
                 (newchristinasIncome*12-christinasIncome*12)+" рублей 0 копеек");
 
+    }
+    public static void taskHard6(){
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e =9;
+        int result = a*(b+(c-d*e));
+        System.out.println(-result);
+    }
+    public static void taskHard7(){
+        int a = 5;
+        int b = 7;
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        System.out.println(a +" "  +b);
+    }
+    public static void taskHard8(){
+        int a = 256;
+        int b = (a%100)/10;
+        System.out.println(b);
     }
 }
